@@ -1,0 +1,97 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\用户目录\我的文档\Visual Studio 2015\Projects\Rotation_test\Rotation_test>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "D:\VS_2017\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\用户目录\我的文档\Visual Studio 2015\Projects\Rotation_test\Rotation_test\kernel.cu" 
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(33): warning C4005: 'block_width': macro redefinition
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(269): warning : parameter "med" was set but never used
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(322): warning : variable "leftBound" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(322): warning : variable "rightBound" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(358): warning : variable "d_object" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(360): warning : variable "d_numberOfLines" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(361): warning : variable "d_rotationAngle" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(393): warning : variable "host_array" was declared but never referenced
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(33): warning C4005: 'block_width': macro redefinition
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(269): warning : parameter "med" was set but never used
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(322): warning : variable "leftBound" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(322): warning : variable "rightBound" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(358): warning : variable "d_object" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(360): warning : variable "d_numberOfLines" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(361): warning : variable "d_rotationAngle" was declared but never referenced
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(393): warning : variable "host_array" was declared but never referenced
+  kernel.cu
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(83): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(106): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(129): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(151): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(258): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(375): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(393): warning C4101: 'host_array': unreferenced local variable
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(361): warning C4101: 'd_rotationAngle': unreferenced local variable
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(322): warning C4101: 'rightBound': unreferenced local variable
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(360): warning C4101: 'd_numberOfLines': unreferenced local variable
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(322): warning C4101: 'leftBound': unreferenced local variable
+D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(358): warning C4101: 'd_object': unreferenced local variable
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\thrust/iterator/iterator_adaptor.h(204): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\thrust/iterator/iterator_adaptor.h(202): note: while compiling class template member function 'void thrust::iterator_adaptor<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>::advance(__int64)'
+          with
+          [
+              Incrementable=int
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\thrust/iterator/iterator_facade.h(171): note: see reference to function template instantiation 'void thrust::iterator_adaptor<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>::advance(__int64)' being compiled
+          with
+          [
+              Incrementable=int
+          ]
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include\thrust/iterator/counting_iterator.h(132): note: see reference to class template instantiation 'thrust::iterator_adaptor<thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>,Incrementable,Incrementable,thrust::any_system_tag,thrust::random_access_traversal_tag,Incrementable,__int64>' being compiled
+          with
+          [
+              Incrementable=int
+          ]
+  D:/用户目录/我的文档/Visual Studio 2015/Projects/Rotation_test/Rotation_test/kernel.cu(69): note: see reference to class template instantiation 'thrust::counting_iterator<int,thrust::use_default,thrust::use_default,thrust::use_default>' being compiled
+  Rotation_test.vcxproj -> D:\用户目录\我的文档\Visual Studio 2015\Projects\Rotation_test\x64\Debug\Rotation_test.exe
+  Rotation_test.vcxproj -> D:\用户目录\我的文档\Visual Studio 2015\Projects\Rotation_test\x64\Debug\Rotation_test.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "D:\用户目录\我的文档\Visual Studio 2015\Projects\Rotation_test\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+  已复制         2 个文件。
